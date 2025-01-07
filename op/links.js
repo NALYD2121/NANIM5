@@ -1,7 +1,7 @@
 // links.js
 
 const videoUrls = [
-    "https://listeamed.net/e/ep1", // �pisode 1
+    "https://listeamed.net/e/NMRLEprDoAY5XaG", // �pisode 1
     "https://bembed.net/e/mMq75L8w0D75XPB", // �pisode 2
     "https://bembed.net/e/qM1VOPNW6VMxo4k", // �pisode 3
     "https://bembed.net/e/YWA8E9wm3Mk5GmM", // �pisode 4
