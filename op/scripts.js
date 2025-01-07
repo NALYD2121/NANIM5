@@ -39,7 +39,6 @@ document.getElementById('searchInput').addEventListener('keypress', function(e) 
             "index": "../index.html",
             "Accueil": "../Accueil.html",
             "Films": "../Films.html",
-            
             "Séries": "../Séries.html",
             "Animés": "../Animés.html",
             "animés": "../Animés.html",
