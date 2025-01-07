@@ -52,11 +52,12 @@ document.getElementById('searchInput').addEventListener('keypress', function(e) 
         };
 
         if (searchResults[searchTerm]) {
-            window.location.href = searchResults[searchTerm]; // Redirection
+            window.location.href = searchResults[searchTerm]; // Redirection vers la page correspondante
         } else {
-            window.location.href = '../404/404.html'; // Redirection vers une page d'erreur
+            alert(`Aucun résultat trouvé pour : ${searchTerm}`);
         }
-    });
+    }
+});
 
 // Mode sombre
 const darkModeToggle = document.getElementById('darkModeToggle');
