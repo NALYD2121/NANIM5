@@ -24,9 +24,9 @@ document.getElementById('searchButton').addEventListener('click', function() {
         };
 
         if (searchResults[searchTerm]) {
-            window.location.href = searchResults[searchTerm]; // Redirection vers la page correspondante
+            window.location.href = searchResults[searchTerm]; // Redirection
         } else {
-            alert(`Aucun résultat trouvé pour : ${searchTerm}`);
+            window.location.href = '../404/404.html'; // Redirection vers une page d'erreur
         }
     }
 });
@@ -52,9 +52,9 @@ document.getElementById('searchInput').addEventListener('keypress', function(e) 
         };
 
         if (searchResults[searchTerm]) {
-            window.location.href = searchResults[searchTerm]; // Redirection vers la page correspondante
+            window.location.href = searchResults[searchTerm]; // Redirection
         } else {
-            alert(`Aucun résultat trouvé pour : ${searchTerm}`);
+            window.location.href = '../404/404.html'; // Redirection vers une page d'erreur
         }
     }
 });

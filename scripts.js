@@ -24,7 +24,7 @@ document.getElementById('searchButton').addEventListener('click', function() {
     if (searchResults[searchTerm]) {
         window.location.href = searchResults[searchTerm]; // Redirection
     } else {
-        window.location.href = '404\404.html'; // Redirection vers une page d'erreur
+        window.location.href = '404/404.html'; // Redirection vers une page d'erreur
     }
 });
 
@@ -55,7 +55,7 @@ document.getElementById('searchInput').addEventListener('keydown', function(e) {
         if (searchResults[searchTerm]) {
             window.location.href = searchResults[searchTerm]; // Redirection
         } else {
-            window.location.href = '404\404.html'; // Redirection vers une page d'erreur
+            window.location.href = '404/404.html'; // Redirection vers une page d'erreur
         }
     }
 });
