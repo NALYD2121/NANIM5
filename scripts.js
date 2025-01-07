@@ -5,7 +5,11 @@ document.getElementById('searchButton').addEventListener('click', function() {
         "index": "index.html",
         "accueil": "index.html",
         "films": "Films.html",
-        "film": "Films.html",
+        "Film": "Films.html",
+        "Séries": "Séries.html",
+        "Série": "Séries.html",
+        "Series": "Séries.html",
+        "Series": "Séries.html",
         "séries": "Séries.html",
         "animés": "Animés.html",
         "animé": "Animés.html",
@@ -20,7 +24,7 @@ document.getElementById('searchButton').addEventListener('click', function() {
     if (searchResults[searchTerm]) {
         window.location.href = searchResults[searchTerm]; // Redirection
     } else {
-        window.location.href = '404.html'; // Redirection vers une page d'erreur
+        window.location.href = '../404/'; // Redirection vers une page d'erreur
     }
 });
 
@@ -32,7 +36,11 @@ document.getElementById('searchInput').addEventListener('keydown', function(e) {
             "index": "index.html",
             "accueil": "index.html",
             "films": "Films.html",
-            "film": "Films.html",
+            "Film": "Films.html",
+            "Séries": "Séries.html",
+            "Série": "Séries.html",
+            "Series": "Séries.html",
+            "Series": "Séries.html",
             "séries": "Séries.html",
             "animés": "Animés.html",
             "animé": "Animés.html",
